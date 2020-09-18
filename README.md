@@ -1,5 +1,5 @@
 ## Prepare fault for meshing
-#### Step 1: Convert fault rupture KML to SHP
+#### Step 1: Convert fault rupture filetype from KML to SHP
 ```
 ogr2ogr Ridgecrest_Surface_Ruptures.shp Ridgecrest_Surface_Ruptures.kml
 ```
