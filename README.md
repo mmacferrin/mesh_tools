@@ -22,4 +22,4 @@ ogr2ogr RidgecrestSurfaceRuptures_4faults_0.003.shp RidgecrestSurfaceRuptures_4f
 faulttrace_shp2jou.py -i RidgecrestSurfaceRuptures_4faults_0.003.shp -lat 35.7665 -lon -117.6048
 ```
 #### Step 4: Load and run journal file in CUBIT's Journal Editor
-![alt text](https//github.com/magalibarbasevilla/mesh_tools/cubit_faulttracejou.png?raw=true)
+![Alt text](https://github.com/mbarbasevilla/mesh_tools/blob/master/cubit_faulttracejou.png?raw=true)
