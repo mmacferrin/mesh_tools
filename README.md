@@ -19,9 +19,9 @@ ogr2ogr RidgecrestSurfaceRuptures_4faults_0.003.shp RidgecrestSurfaceRuptures_4f
 ##### Input: RidgecrestSurfaceRuptures_4faults_0.003.shp
 ##### Output: RidgecrestSurfaceRuptures_4_faults_0.003.jou
 ```
-faulttrace_shp2jou.py -i RidgecrestSurfaceRuptures_0.003.shp -lat 35.7665 -lon -117.6048
+faulttrace_shp2jou.py -i RidgecrestSurfaceRuptures_4faults_0.003.shp -lat 35.7665 -lon -117.6048
 ```
 #### Step 4: Run journal file in CUBIT 
 ```
-faulttrace_shp2jou.py -i RidgecrestSurfaceRuptures_0.003.shp -lat 35.7665 -lon -117.6048
+faulttrace_shp2jou.py -i RidgecrestSurfaceRuptures_4faults_0.003.shp -lat 35.7665 -lon -117.6048
 ```
