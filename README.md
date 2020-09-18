@@ -7,5 +7,7 @@ ogr2ogr Ridgecrest_Surface_Ruptures.shp Ridgecrest_Surface_Ruptures.kml
 ```
 ## Step 2: Smooth fault rupture SHP
 ```
-ogr2ogr outputShapefile_smoothed.shp outputShapefile.shp -simplify 0.05
+ogr2ogr Ridgecrest_Surface_Ruptures_smoothed.shp Ridgecrest_Surface_Ruptures.shp -simplify 0.002
 ```
+## Step 3: Convert to kml again for viewing
+ogr2ogr Ridgecrest_Surface_Ruptures_smoothed.kml Ridgecrest_Surface_Ruptures_smoothed.shp
