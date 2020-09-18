@@ -6,7 +6,7 @@
 ##### Input: RidgecrestSurfaceRuptures_4faults.kml
 ##### Output: RidgecrestSurfaceRuptures_4faults.shp
 ```
-ogr2ogr RidgecrestSurfaceRuptures.shp RidgecrestSurfaceRuptures.kml
+ogr2ogr RidgecrestSurfaceRuptures_4faults.shp RidgecrestSurfaceRuptures_4faults.kml
 ```
 #### Step 2: Smooth fault rupture shp file
 ##### Input: RidgecrestSurfaceRuptures_4faults.shp
