@@ -13,3 +13,7 @@ ogr2ogr Ridgecrest_Surface_Ruptures_smoothed.shp Ridgecrest_Surface_Ruptures.shp
 ```
 ogr2ogr Ridgecrest_Surface_Ruptures_smoothed.kml Ridgecrest_Surface_Ruptures_smoothed.shp
 ```
+## Step 4: Run ./FaultTraceSHP2CUBIT.py
+```
+./FaultTraceSHP2CUBIT.py
+```
