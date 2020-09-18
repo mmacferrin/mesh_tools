@@ -7,13 +7,9 @@ ogr2ogr Ridgecrest_Surface_Ruptures.shp Ridgecrest_Surface_Ruptures.kml
 ```
 ## Step 2: Smooth fault rupture SHP
 ```
-ogr2ogr Ridgecrest_Surface_Ruptures_smoothed.shp Ridgecrest_Surface_Ruptures.shp -simplify 0.002
+ogr2ogr Ridgecrest_Surface_Ruptures_0.002.shp Ridgecrest_Surface_Ruptures.shp -simplify 0.002
 ```
-## Step 3: Convert to kml again for viewing
+## Step 3: Run ./faultrace_shp2jou.py
 ```
-ogr2ogr Ridgecrest_Surface_Ruptures_smoothed.kml Ridgecrest_Surface_Ruptures_smoothed.shp
-```
-## Step 4: Run ./FaultTraceSHP2CUBIT.py
-```
-./FaultTraceSHP2CUBIT.py
+faulttrace_shp2jou.py -i RidgecrestSurfaceRuptures_downloaded.shp -lat 35.7665 -lon -117.6048
 ```
