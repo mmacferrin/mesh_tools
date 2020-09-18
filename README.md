@@ -1,5 +1,3 @@
-#mesh_tools
-
 # Prepare fault for meshing
 ## Step 1: Convert fault rupture KML to SHP
 ```
