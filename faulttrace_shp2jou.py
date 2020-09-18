@@ -1,5 +1,4 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
 
 import os
 import argparse
@@ -19,7 +18,7 @@ __maintainer__ = "Magali Barba"
 __email__ = "magali.barba@colorado.edu"
 
 Usage: 
-faulttrace_shp2jou.py -i RidgecrestSurfaceRuptures_downloaded.shp -lat 35.7665 -lon -117.6048
+./faulttrace_shp2jou.py -i RidgecrestSurfaceRuptures_downloaded.shp -lat 35.7665 -lon -117.6048
 '''
 
 def parse():
