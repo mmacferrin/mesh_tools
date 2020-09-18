@@ -10,4 +10,6 @@ ogr2ogr Ridgecrest_Surface_Ruptures.shp Ridgecrest_Surface_Ruptures.kml
 ogr2ogr Ridgecrest_Surface_Ruptures_smoothed.shp Ridgecrest_Surface_Ruptures.shp -simplify 0.002
 ```
 ## Step 3: Convert to kml again for viewing
+```
 ogr2ogr Ridgecrest_Surface_Ruptures_smoothed.kml Ridgecrest_Surface_Ruptures_smoothed.shp
+```
