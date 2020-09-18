@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ridgecrest Surface Ruptures_4faults.kml</name>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0600fc</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Ridgecrest Surface Ruptures</name>
+		<open>1</open>
+		<Placemark>
+			<name>Milliner Fault 4</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-117.6185210594793,35.79320190954076,1000 -117.6294016134412,35.79666815422594,1000 -117.6349047808316,35.80577027233636,1000 -117.6449024163529,35.80927404758579,1000 -117.6487053173375,35.81952424922672,1000 -117.6512040849614,35.82371851834882,1000 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Milliner Fault 3</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-117.5855082644153,35.74365587512787,1000 -117.5725161460553,35.741717944257,1000 -117.5607970250395,35.73253557506106,1000 -117.5496828646158,35.72549802796446,1000 -117.5362731631391,35.71680472191439,1000 -117.5269511629585,35.70934232338035,1000 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>main RL fault</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-117.6980688974151,35.87616181742828,1000 -117.6901557234548,35.87002839109173,1000 -117.6771785076008,35.8583020677848,1000 -117.666760686043,35.84826080230167,1000 -117.6519634541736,35.83607781894636,1000 -117.6402526356756,35.82823169018724,1000 -117.6308851001168,35.81993010980206,1000 -117.6210809463448,35.80639029258878,1000 -117.615650235227,35.79776781523536,1000 -117.6143400197564,35.79386940871716,1000 -117.611835823565,35.78940770230418,1000 -117.6028846532306,35.7747997656386,1000 -117.6021735494617,35.76993580224722,1000 -117.6005633905118,35.76506931035499,1000 -117.5981586280621,35.76133807061726,1000 -117.596334130072,35.75597446480239,1000 -117.591118167655,35.74939624598523,1000 -117.5848954184168,35.74281217155016,1000 -117.5820901323252,35.73867043204493,1000 -117.5808458572208,35.73476018351829,1000 -117.5754402474434,35.72753237894829,1000 -117.5717677288509,35.72176924597302,1000 -117.5675449126008,35.71786618540055,1000 -117.559768720726,35.70826948944191,1000 -117.5512578360841,35.69929528372556,1000 -117.5379900737015,35.68947127504355,1000 -117.5323624351096,35.68687939606846,1000 -117.5201166181142,35.67865761106695,1000 -117.5159550179887,35.67440799785536,1000 -117.5114192047361,35.67146564272458,1000 -117.5053416193319,35.66218034155109,1000 -117.5009219714704,35.65978517678275,1000 -117.496587397832,35.65798311158289,1000 -117.4914497517168,35.6576545513138,1000 -117.4833849072274,35.65101869737848,1000 -117.4773111824166,35.64457799151773,1000 -117.4718747999488,35.64224620084895,1000 -117.4589115104369,35.63946752378815,1000 -117.4438901713762,35.63411950829616,1000 -117.4349623172759,35.62890055428269,1000 -117.4276341012357,35.62194838790772,1000 -117.4139043721848,35.60986441485747,1000 -117.3942230634684,35.58980296775297,1000 -117.3712760785662,35.57168115903677,1000 -117.3699218093522,35.5700151535206,1000 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>southern LL fault</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-117.5936738375664,35.5938008862783,1000 -117.5912093010423,35.59900859674356,1000 -117.577200877116,35.61436413259722,1000 -117.5698889120126,35.62127190706916,1000 -117.5659889866657,35.62621740900133,1000 -117.5534782652645,35.63321659225228,1000 -117.5434452362259,35.6375081927728,1000 -117.5375811527493,35.64288347172628,1000 -117.5341478141488,35.64814095591193,1000 -117.5310466356862,35.65022467820948,1000 -117.5261465788422,35.65578654092828,1000 -117.5200734795327,35.66141586401518,1000 -117.5114963090488,35.66903114585099,1000 -117.5038956726325,35.67304036040248,1000 -117.4969276978467,35.67833471083894,1000 -117.4897849146608,35.68331451388645,1000 -117.4852281323726,35.68652630947859,1000 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
